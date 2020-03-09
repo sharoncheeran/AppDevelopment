@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MobileApp</string>
+    <string name="signin">Sign-in</string>
+    <string name="createacc">Create account</string>
+    <string name="text1">Welcome to the application!</string>
+    <string name="or">Or</string>
+    <string name="Email">Email i.e. "someone@mail.com"</string>
+    <string name="Password">Password</string>
+    <string name="Details">Enter the following details:</string>
+</resources>
