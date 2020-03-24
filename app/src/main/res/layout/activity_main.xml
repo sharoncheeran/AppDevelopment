@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="310dp"
-        android:fontFamily="serif"
+        android:fontFamily="sans-serif-medium"
         android:text="@string/or"
         android:textColor="#090909"
         android:textSize="25sp"/>
@@ -42,7 +42,7 @@
         android:fontFamily="sans-serif-medium"
         android:text="@string/signin"
         android:textColor="#0C0C0C"
-        android:textSize="20sp" />
+        android:textSize="15sp" />
 
     <Button
         android:id="@+id/createacc"
@@ -59,7 +59,7 @@
         android:fontFamily="sans-serif-medium"
         android:text="@string/createacc"
         android:textColor="#090909"
-        android:textSize="20sp" />
+        android:textSize="15sp" />
 
     <EditText
         android:id="@+id/Email"
