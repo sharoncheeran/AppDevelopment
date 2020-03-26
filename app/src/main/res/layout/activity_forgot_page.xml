@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    android:padding="5dp"
+    tools:context=".ForgotPage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-medium"
+        android:text="Please enter details:"
+        android:textColor="#090909"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/ForgotEmail"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="135dp"
+        android:autofillHints=""
+        android:ems="12"
+        android:fontFamily="sans-serif-medium"
+        android:hint="@string/Email"
+        android:inputType="textEmailAddress"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/ForgotReg"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="175dp"
+        android:autofillHints=""
+        android:ems="13"
+        android:fontFamily="sans-serif-medium"
+        android:hint="Enter your car reg number"/>
+
+    <Button
+        android:id="@+id/forgotSubmit"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="270dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="240dp"
+        android:background="#25E42D"
+        android:fontFamily="sans-serif-medium"
+        android:text="Submit"
+        android:textColor="#0C0C0C"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/forgotBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="240dp"
+        android:background="#FF0101"
+        android:fontFamily="sans-serif-medium"
+        android:text="Back"
+        android:textColor="#090909"
+        android:textSize="15sp" />
+
+</RelativeLayout>
