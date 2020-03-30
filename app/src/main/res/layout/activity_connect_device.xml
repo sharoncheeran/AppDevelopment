@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:padding="5dp"
+    tools:context=".connectDevice">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Connect to device"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/connectDevBtn"
+        android:layout_width="296dp"
+        android:layout_height="72dp"
+        android:layout_below="@+id/ConnectDev"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="200dp"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
+        android:text="Find / connect to device"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/disconnectDevBtn"
+        android:layout_width="296dp"
+        android:layout_height="72dp"
+        android:layout_below="@+id/ConnectDev"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="290dp"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
+        android:text="Disconnect from device"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/BackCDevice"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="425dp"
+        android:layout_centerHorizontal="true"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:text="Back" />
+
+</RelativeLayout>

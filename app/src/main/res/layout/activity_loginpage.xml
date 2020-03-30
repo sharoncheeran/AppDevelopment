@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2196F3"
+    android:background="@android:color/holo_blue_light"
     android:padding="5dp"
     tools:context=".loginPage">
 
@@ -34,10 +34,10 @@
         android:layout_marginStart="270dp"
         android:layout_marginLeft="250dp"
         android:layout_marginTop="240dp"
-        android:background="#25E42D"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
         android:fontFamily="sans-serif-medium"
         android:text="@string/signin"
-        android:textColor="#0C0C0C"
         android:textSize="15sp" />
 
     <Button
@@ -47,10 +47,10 @@
         android:layout_marginStart="55dp"
         android:layout_marginLeft="250dp"
         android:layout_marginTop="240dp"
-        android:background="#FF0101"
         android:fontFamily="sans-serif-medium"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
         android:text="@string/createacc"
-        android:textColor="#090909"
         android:textSize="15sp" />
 
     <EditText
@@ -87,6 +87,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="350dp"
-        android:background="#032BF3"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
         android:text="Forgot password" />
 </RelativeLayout>

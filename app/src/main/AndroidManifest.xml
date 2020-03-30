@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ForgotPage"/>
+        <activity android:name=".userProfile"></activity>
+        <activity android:name=".carStatus" />
+        <activity android:name=".carOperation" />
+        <activity android:name=".connectDevice" />
+        <activity android:name=".carDetails" />
+        <activity android:name=".ForgotPage" />
         <activity android:name=".mainPage" />
         <activity android:name=".createAcc" />
         <activity android:name=".loginPage">
