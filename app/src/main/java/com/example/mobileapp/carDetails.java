@@ -8,14 +8,13 @@ import android.view.View;
 import android.widget.Button;
 
 public class carDetails extends AppCompatActivity {
-    private Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_car_details);
 
-        button = (Button)findViewById(R.id.BackCD); //button function
+        Button button = findViewById(R.id.BackCD); //button function
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

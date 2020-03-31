@@ -18,4 +18,45 @@
         android:textColor="#000000"
         android:textSize="25sp" />
 
+    <Button
+        android:id="@+id/LockCO"
+        android:layout_width="296dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="200dp"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
+        android:text="Lock car"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/UnlockCO"
+        android:layout_width="296dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="290dp"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
+        android:text="Unlock car"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/BackCO"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="425dp"
+        android:layout_centerHorizontal="true"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:text="Back" />
 </RelativeLayout>
