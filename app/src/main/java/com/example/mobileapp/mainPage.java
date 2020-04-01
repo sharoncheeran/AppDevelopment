@@ -3,9 +3,11 @@ package com.example.mobileapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class mainPage extends AppCompatActivity {
 
@@ -13,6 +15,9 @@ public class mainPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mainpage);
+
+//        Image image = findViewById(R.id.imageView4);
+//        image.setOnClickListener
 
         Button button = findViewById(R.id.CarDetail); //button function
         button.setOnClickListener(new View.OnClickListener() {
@@ -53,6 +58,21 @@ public class mainPage extends AppCompatActivity {
                 openUserProfile(); //creating the function to run when clicked
             }
         });
+
+        button = findViewById(R.id.logOut); //button function
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                backToLogin(); //creating the function to run when clicked
+            }
+        });
+    }
+
+    private void backToLogin()
+    {
+        Intent intent = new Intent(this, loginPage.class);
+        startActivity(intent);
+        Toast.makeText(this, "You've been logged out!", Toast.LENGTH_SHORT).show();
     }
 
     private void openUserProfile()
