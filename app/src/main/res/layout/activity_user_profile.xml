@@ -21,106 +21,11 @@
     <EditText
         android:id="@+id/FirstNameUP"
         android:layout_width="340dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="21dp"
-        android:layout_marginLeft="21dp"
-        android:layout_marginTop="94dp"
-        android:ems="10"
-        android:fontFamily="sans-serif-medium"
-        android:hint="First Name"
-        android:inputType="textPersonName" />
-
-    <EditText
-        android:id="@+id/LastNameUP"
-        android:layout_width="340dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="21dp"
-        android:layout_marginLeft="21dp"
-        android:layout_marginTop="155dp"
-        android:ems="10"
-        android:fontFamily="sans-serif-medium"
-        android:hint="Last Name"
-        android:inputType="textPersonName" />
-
-    <EditText
-        android:id="@+id/EmailUP"
-        android:layout_width="340dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
+        android:layout_height="300dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="21dp"
-        android:layout_marginLeft="21dp"
-        android:layout_marginTop="214dp"
-        android:ems="10"
-        android:fontFamily="sans-serif-medium"
-        android:hint="Email address"
-        android:inputType="textPersonName" />
-
-    <EditText
-        android:id="@+id/carMake"
-        android:layout_width="340dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="21dp"
-        android:layout_marginLeft="21dp"
-        android:layout_marginTop="270dp"
-        android:ems="10"
-        android:fontFamily="sans-serif-medium"
-        android:hint="Car make"/>
-
-    <EditText
-        android:id="@+id/carModel"
-        android:layout_width="340dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="21dp"
-        android:layout_marginLeft="21dp"
-        android:layout_marginTop="330dp"
-        android:ems="10"
-        android:fontFamily="sans-serif-medium"
-        android:hint="Car model"/>
-
-    <EditText
-        android:id="@+id/yearMake"
-        android:layout_width="340dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="21dp"
-        android:layout_marginLeft="21dp"
-        android:layout_marginTop="390dp"
-        android:ems="10"
-        android:fontFamily="sans-serif-medium"
-        android:hint="Year make" />
-
-    <EditText
-        android:id="@+id/regCar"
-        android:layout_width="340dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="21dp"
-        android:layout_marginLeft="21dp"
-        android:layout_marginTop="450dp"
-        android:ems="10"
-        android:fontFamily="sans-serif-medium"
-        android:hint="Car registration"/>
+        android:layout_marginTop="106dp"
+        android:clickable="false" />
 
     <Button
         android:id="@+id/BackUP"
@@ -132,7 +37,8 @@
         android:background="#000000"
         android:textColor="#FFFFFF"
         android:fontFamily="sans-serif-medium"
-        android:text="Back" />
+        android:text="Back"
+        android:layout_marginStart="21dp" />
 
     <Button
         android:id="@+id/EditUP"
@@ -144,6 +50,7 @@
         android:background="#000000"
         android:textColor="#FFFFFF"
         android:fontFamily="sans-serif-medium"
-        android:text="Edit" />
+        android:text="Edit"
+        android:layout_marginStart="250dp" />
 
 </RelativeLayout>

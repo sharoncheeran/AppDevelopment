@@ -16,9 +16,6 @@ public class mainPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mainpage);
 
-//        Image image = findViewById(R.id.imageView4);
-//        image.setOnClickListener
-
         Button button = findViewById(R.id.CarDetail); //button function
         button.setOnClickListener(new View.OnClickListener() {
             @Override
