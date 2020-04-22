@@ -1,3 +1,10 @@
+//////////////////////////////////////////
+// Author: Sharon Joseph Cheeran
+// File name: userProfile.java
+// Module: Computing project UFC4-45-3
+// Purpose: Mobile application prototype
+/////////////////////////////////////////
+
 package com.example.mobileapp;
 
 import androidx.appcompat.app.AppCompatActivity;
